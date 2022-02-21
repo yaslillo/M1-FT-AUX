@@ -14,45 +14,26 @@ function elementoEnComun(array1, array2) {
 };
 
 
-const elementoMenorYMayor = (array) => {
+function elementoMenorYMayor(array) {
     // El Array recibido por props es un array que contienen numeros
     // Tenes que retornar un array
     // Solamente con el elemento menor y mayor del array recibido
-   /*  let numeroMenor;
-    let numeroMayor;
-    let returnArray = [];
-    
-    for(let i = 0; i < array.length; i++){
-        array[0] > array[i] ?
-        numeroMenor = array[i]
-        :
-        numeroMenor = array[0]
-        
-        if(array[0] < array[i]) {
-            numeroMayor = array[i]
-        }
-    };
-    
-    returnArray = [numeroMenor, numeroMayor];
-    
-    return returnArray */
-};
-
-const sumaDeArrays = (array) => {
-    // El array recibido por argumentos es un array multidimencional con arrays que contienen elementos numericos
-    // Tienen que devolver un array que solo contenga elementos de tipo number
-    // Sumando los elementos de cada array, y devolviendo la suma del mismo 
-
-};
-
-
-const elementosUnicos = (array) => {
-    // ([1, 1, 2, 3, 3, 4, 4, 5)) [2, 5]
   
 };
 
-/* .toContain() */
+function sumaDeArrays(array) {
+    // El array recibido por argumentos es un array multidimencional con array's que contienen elementos de tipo number
+    // Tienen que devolver un array que solo contenga elementos de tipo number
+    // Sumando los elementos de cada array, y devolviendo la suma del mismo
+    // OJO: Si el elemento dentro del array que ingresa por prop, ya es de tipo number, deben devolverlo como tal.
 
+};
+
+
+function elementosUnicos(array) {
+    // ([1, 1, 2, 3, 3, 4, 4, 5)) [2, 5]
+  
+};
 
 
 module.exports = {
