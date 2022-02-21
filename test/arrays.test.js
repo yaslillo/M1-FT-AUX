@@ -3,7 +3,8 @@ const {
     invertirOrden,
     elementoMenorYMayor,
     sumaDeArrays,
-    elementosUnicos
+    cazaDeNumeros,
+    mismoValorMismosElementos
 } = require('../01-arrays/01-arrays')
 
 
@@ -23,7 +24,7 @@ describe('invertirOrden(array)', function() {
 })
 
 describe('elementoMenorYMayor(array)', function() {
-    it('Deberia retornar un array con los elementos invertirdos del array que recibe por parametro', function (){
+    it('Deberia retornar un array solo con el elemento menor y mayor que recibe por parametro', function (){
         expect(elementoMenorYMayor([10, 15, 24])).not.toContain(15)
         expect(elementoMenorYMayor([2, 4, 9, 1])).not.toContain(4)
         expect(elementoMenorYMayor([10, 15, 24])).toContain(10, 24)
@@ -32,13 +33,21 @@ describe('elementoMenorYMayor(array)', function() {
 });
 
 describe('sumaDeArrays(array)', function() {
-    // o ¿Que el array ingresante por props solamente tenga arrays, sin elementos numericos dentro del array que llega pro props?
-    // Si es asi, no deberian hacer el chequeo del tipo de valor
-    // En cambio de esta menra tiene que chequear previamente si es o no un Array.
-    xit('Deberia retornar un array solo con elementos de tipo numero, los cuales seran el resultado de la suma de cada uno de los arrays internos', function() {
+    // Falta realizar prueba
+    xit('Deberia retornar un array solo con elementos de tipo numero', function() {
       expect(sumaDeArrays([[1, 3], [10, 20], [4, 5], 2])).toBe([4, 30, 9, 2])
       expect(sumaDeArrays([[5, 5], 4, [10, 15], [25, 10]])).toBe([10, 4, 25, 35])
     })
 });
+
+
+describe('cazaDeNumeros(array)', function() {
+    // Falta realizar prueba
+    xit('Deberia retornar un array con los numeros que se encuentren en los valores del objeto', function() {
+      expect(cazaDeNumeros([{participantes: 10, aceptados: [true, 4], no_aceptados: [false, 6]}])).toEqual([10, 4, 6])
+      expect(cazaDeNumeros([{parcelas: [20], lagunas: ['sin agua', 3], rios: 2}])).toEqual([20, 3, 2])
+    })
+});
+
 
   

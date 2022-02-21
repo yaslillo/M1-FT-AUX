@@ -1,6 +1,6 @@
 
 function invertirOrden(array) {
-    // Invertir el orden de los elementos del array que recibe por params
+    // Invertir el orden de los elementos del array que recibe por parametro
     // Que los ultimos elementos, pasen a ser los primeros
     // No vale usar el metodo "reverse"
     
@@ -22,18 +22,29 @@ function elementoMenorYMayor(array) {
 };
 
 function sumaDeArrays(array) {
-    // El array recibido por argumentos es un array multidimencional con array's que contienen elementos de tipo number
+    // El array recibido por parametro es un array multidimencional con array's que contienen elementos de tipo number
     // Tienen que devolver un array que solo contenga elementos de tipo number
     // Sumando los elementos de cada array, y devolviendo la suma del mismo
-    // OJO: Si el elemento dentro del array que ingresa por prop, ya es de tipo number, deben devolverlo como tal.
+    // OJO: Si el elemento dentro del array que ingresa por prop, ya es de tipo number, deben devolverlo como tal dentro del array que retornan.
 
 };
 
 
-function elementosUnicos(array) {
-    // ([1, 1, 2, 3, 3, 4, 4, 5)) [2, 5]
-  
+function cazaDeNumeros(array) {
+   // El array recibido por parametro contiene un Objeto
+   // Tienen que devolver en un array, todos los valores numericos que se encuentren en el objeto
+   // Pista: podes utilizar el operador typeof.
+   // Pista 2: Los valores del objeto recibido, solo seran de tipo array y de tipo number
+
+
 };
+
+function mismoValorMismosElementos(numero, divisor) {
+    // Tiene que devolver un array con la misma cantidad de elementos que el valor del divisor
+    // Todos los elementos deben tener el mismo valor
+
+
+}
 
 
 module.exports = {
@@ -41,5 +52,6 @@ module.exports = {
     invertirOrden,
     elementoMenorYMayor,
     sumaDeArrays,
-    elementosUnicos
+    cazaDeNumeros,
+    mismoValorMismosElementos
 };
