@@ -1,4 +1,4 @@
-const { crearClaseLibro } = require("../02-Objects/02-Objects");
+const { crearClaseLibro, printStaff } = require("../02-Objects/02-Objects.js");
 
 describe("Clase", function () {
   describe("crearClaseLibro", function () {
@@ -96,5 +96,31 @@ describe("Clase", function () {
       );
       expect(libro.getAlcance()).toBe(3);
     });
+  });
+});
+describe("PrintStaff", function () {
+  const hogwarts = {
+    staff: {
+      headmaster: {
+        name: "Albus Percival Wulfric Brian Dumbledore",
+      },
+      keeperOfKeys: {
+        name: "Rubeus Hagrid",
+      },
+      potionsMaster: {
+        name: "Severus Snape",
+      },
+      headOfGryffindor: {
+        name: "Minerva McGonagall",
+      },
+    },
+  };
+  it("Should return a string with the staff title and corresponding name", function () {
+    expect(printStaff(hogwarts)).toEqual(
+      "The headmaster is Albus Percival Wulfric Brian Dumbledore",
+      "The keeperOfKeys is Rubeus Hagrid",
+      "The potionsMaster is Severus Snape",
+      "The headOfGryffindor is Minerva McGonagall"
+    );
   });
 });

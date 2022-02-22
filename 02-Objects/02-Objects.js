@@ -45,18 +45,23 @@ function crearClaseLibro() {
   return Libro;
 }
 
-// dado un objeto con objetos anidados escribir una funciones que permita obtener la info deseada
 //Objeto de ejemplo:
-const hogwarts = {
-  staff: {
-    headmaster: {
-      name: "Albus Percival Wulfric Brian Dumbledore",
-      pet: "Fawkes",
-    },
-    keeperOfKeys: {
-      name: "",
-      pet: "Fang",
-    },
-  },
+// const hogwarts = {
+//   staff: {
+//     headmaster: {
+//       name: "Albus Percival Wulfric Brian Dumbledore",
+//     },
+//     keeperOfKeys: {
+//       name: "Rubeus Hagrid",
+//     },
+//    potionsMaster: {
+//       name: "Severus Snape",
+//     },
+//   },
+// };
+const printStaff = function (objeto) {
+  // Retornar un string que diga "The headmaster is Albus Percival Wulfric Brian Dumbledore" por cada uno de los
+  // miembros del staff
 };
-module.exports = { crearClaseLibro };
+
+module.exports = { crearClaseLibro, printStaff };
