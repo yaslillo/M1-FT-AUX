@@ -29,6 +29,7 @@ function Queue() {
   Stack.prototype.size = function () {
     return this.array.length;
   };
+
   
   
   function LinkedList() {
