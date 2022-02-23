@@ -44,4 +44,24 @@ function crearClaseLibro() {
 
   return Libro;
 }
-module.exports = { crearClaseLibro };
+
+//Objeto de ejemplo:
+// const hogwarts = {
+//   staff: {
+//     headmaster: {
+//       name: "Albus Percival Wulfric Brian Dumbledore",
+//     },
+//     keeperOfKeys: {
+//       name: "Rubeus Hagrid",
+//     },
+//    potionsMaster: {
+//       name: "Severus Snape",
+//     },
+//   },
+// };
+const printStaff = function (objeto) {
+  // Retornar un string que diga "The headmaster is Albus Percival Wulfric Brian Dumbledore" por cada uno de los
+  // miembros del staff
+};
+
+module.exports = { crearClaseLibro, printStaff };
