@@ -5,7 +5,7 @@ const {
     sumaDeArrays,
     cazaDeNumeros,
     mismoValorMismosElementos
-} = require('../01-arrays/01-arrays')
+} = require('../01-Arrays/01-arrays')
 
 
 describe('elementoEnComun(array1, array2)', function() {
