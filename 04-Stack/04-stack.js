@@ -15,11 +15,18 @@ const { Stack } = require("../estructuras")
 //   Mar Azulado: raM odaluzA
 
 
-function tripPath(str){  
+function efectoEspejo(str){  
 
     
-}
+};
+
+
+
+
+
+
+
 
 module.exports = {
-    tripPath,
+    efectoEspejo,
 }

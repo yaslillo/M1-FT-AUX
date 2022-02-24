@@ -1,12 +1,12 @@
-const { tripPath } = require("../04-Stack/04-stack");
+const { efectoEspejo } = require("../04-Stack/04-stack");
 
 
-describe('tripPath', function() {
+describe('efectoEspejo', function() {
     it('Debe devolver yoS yrneH cuando invoco efectoEspejo con Soy Henry', function() {
-      expect(tripPath('Cordoba Salta Tucuman Neuquen Jujuy')).toEqual('abodroC atlaS namucuT neuqueN yujuJ');
+      expect(efectoEspejo('Cordoba Salta Tucuman Neuquen Jujuy')).toEqual('abodroC atlaS namucuT neuqueN yujuJ');
     });
 
     it('Debe devolver yoS yrneH cuando invoco efectoEspejo con Soy Henry', function() {
-        expect(tripPath('Mexico Chile Peru Colombia Bolivia')).toEqual('ocixeM elihC ureP aibmoloC aiviloB');
+        expect(efectoEspejo('Mexico Chile Peru Colombia Bolivia')).toEqual('ocixeM elihC ureP aibmoloC aiviloB');
     });
 });
