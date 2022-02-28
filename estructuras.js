@@ -34,7 +34,10 @@ function Queue() {
   
   function LinkedList() {
     this.head = null;
+    this.len = 0;
   }
+
+  
   
   LinkedList.prototype.add = function(valor) {
     var nuevoNodo = new Node(valor);
@@ -48,6 +51,7 @@ function Queue() {
       }
       tailActual.next = nuevoNodo;
     }
+    this.len++;
   }
 
   
@@ -70,6 +74,7 @@ function Queue() {
       nodoActual = nodoActual.next;
     }
     nodoPrevious.next = null;
+    this.len--;
     return nodoActual.value;
   }
   

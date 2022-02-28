@@ -40,6 +40,8 @@ function turnos(queue){
 // quitar el primer elemento de la Queue de la misma forma antes mencionada.
 //UTILIZAR UNA STACK PARA RECORRER LA QUEUE Y MANTENER EL ORDEN 
 
+//EXTRA CREDIT: CONTROLAR TIPOS DE DATO ERRONEOS O QUEUE VACIAS
+
 //TU CODIGO AQUI
 
 
