@@ -14,15 +14,27 @@ const { LinkedList, Node } = require("../estructuras")
 // ACLARACIÓN: Se debe ordenar la lista original y no una nueva.
 LinkedList.prototype.orderList = function () {
     // Tu código aca:
+    
   };
 
 
-  //agregar el metodo removeInIndex al prototipo de LinkedList.
-  // Este metodo deberia recibir un indice, remover el elemento que se encuentre en ese lugar y retornarlo
-  // si no encuentra el numero retornar el valor false
-  // tener en cuenta que el primer elemento se encuentra en el indice 1
-LinkedList.prototype.removeInIndex= function(index){
-
+  //agregar el metodo insert al prototipo de LinkedList.
+  // Este metodo deberia recibir una posicion y un valor
+  // agregar el valor en la posicion indicada
+  //tomar el head como posicion 0
+   
+  // 1-->2-->3-->2.5-->4   2.5 pos=1  newnodo= 2.5-->4   curr=3   
+LinkedList.prototype.insert = function(data,pos) {
+	
 }
+  
+
+
+
+
+module.exports={
+  LinkedList
+}
+
 
 

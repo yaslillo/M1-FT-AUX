@@ -3,6 +3,7 @@ const { BinarySearchTree } = require("../estructuras")
 // En el prototipo de BinarySearchTree crear la funcion search que debe recibir un parametro y buscarlo en el arbol
 // si lo encuentra, debe retornar el nodo. En caso contrario retornar el mensaje correspondiente.
 BinarySearchTree.prototype.search= function(value){
+ 
 
 }
 
@@ -14,7 +15,10 @@ BinarySearchTree.prototype.search= function(value){
 //         /  \      /  \
 //      (2)  (9)  (11)  (15)   ----> nivel 2
 
-BinarySearchTree.prototype.height= function(value){
-
+BinarySearchTree.prototype.height= function(){
+  
 }
 
+module.exports={
+    BinarySearchTree
+}

@@ -1,4 +1,7 @@
-const { LinkedList } = require("../estructuras")
+
+const { expect } = require("chai");
+const { LinkedList } = require("../06 - LinkedList/06-LinkedList")
+
 
 describe("Size", function () {
     var linkedList = new LinkedList();
@@ -43,14 +46,18 @@ describe("Order LinkedList", function () {
 describe("Remove In Index", function () {
     var linkedList = new LinkedList();
   
-    it("RemoveInIndex Debe retornar una lista ordenada descendentemente", function () {
+    it("RemoveInIndex Debe eliminar el elemento indicado en el indice y retornarlo", function () {
       linkedList.add(6);
       linkedList.add(4);
       linkedList.add(2);
       linkedList.add(7);
       linkedList.add(8);
       linkedList.add(1);
-      expect(linkedList.removeInIndex(3)).to.equal(2);
-      expect(linkedList.size).to.equal(5);      
+      linkedList.insert(100, 4)
+      expect(linkedList.search(100)).to.equal(100);
+      expect(linkedList.size()).to.equal(7); 
+      linkedList.insert(200,1)  
+      expect(linkedList.search(200)).to.equal(200);
+      expect(linkedList.size()).to.equal(8); 
     });
   });

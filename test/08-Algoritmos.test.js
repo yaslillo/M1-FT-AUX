@@ -4,7 +4,7 @@ const {
     selectionSort,
     quickSort,
   mergeSort,
-  } = require('../07-Algoritmos/07-Algoritmos.js');
+  } = require('../08-Algoritmos/08-Algoritmos.js');
   
 
   describe('bubbleSort(array)', function() {

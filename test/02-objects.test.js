@@ -15,13 +15,13 @@ describe("Clase", function () {
       );
       expect(libro.titulo).toBe("Harry Potter y la piedra filosofal");
       expect(libro.autor).toBe("J. K. Rowling");
-      expect(libro.traducciones).toEqual([
+      expect(libro.traducciones).toEqual(
         [
           { idioma: "inglés", editorial: "Scholastic" },
           { idioma: "castellano", editorial: "emece" },
           { idioma: "francés", editorial: "Éditions Gallimard" },
         ],
-      ]);
+      );
     });
     it("should get the title with getTitulo", function () {
       const Libro = crearClaseLibro();
@@ -116,11 +116,11 @@ describe("PrintStaff", function () {
     },
   };
   it("Should return a string with the staff title and corresponding name", function () {
-    expect(printStaff(hogwarts)).toEqual(
+    expect(printStaff(hogwarts)).toEqual([
       "The headmaster is Albus Percival Wulfric Brian Dumbledore",
       "The keeperOfKeys is Rubeus Hagrid",
       "The potionsMaster is Severus Snape",
-      "The headOfGryffindor is Minerva McGonagall"
+      "The headOfGryffindor is Minerva McGonagall"]
     );
   });
 });
