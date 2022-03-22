@@ -10,6 +10,8 @@ let obj = {
       },
     },
   },
+  prop1:5,
+  prop2:6
 };
 describe("producto(array)", function () {
   it("Should return the product of all numbers within the array", function () {

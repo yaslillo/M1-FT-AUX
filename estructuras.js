@@ -110,9 +110,8 @@ function Queue() {
     this.right = null;
   }
   
-  BinarySearchTree.prototype.insert = function(value) {
-  
-    if(value < this.value){
+BinarySearchTree.prototype.insert = function(value) {
+      if(value < this.value){
       if(this.left === null){
         var newTree = new BinarySearchTree(value);
         this.left = newTree;

@@ -11,19 +11,14 @@ const { Stack, Queue } = require("../estructuras")
 // > string con el mismo texto, el mismo orden, pero con las palabras invertidas. 
 
 // Ejemplo:
-//   Colombia Argentina: aibmoloC anitnegrA
-//   Mar Azulado: raM odaluzA
+//   Colombia Argentina: aibmoloC anitnegrA 
+//   Mar Azulado oro : raM odaluzA oro
 
 
 function efectoEspejo(str){  
 //tu codigo aqui
 
-
 };
-
-
-
-
 
 
 

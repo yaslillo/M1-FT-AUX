@@ -6,8 +6,8 @@ function bubbleSort(array) {
   // Devolver el array ordenado resultante
   // Tu código:
   
-};
-
+ 
+}
 
 
 function insertionSort(array) {
@@ -15,8 +15,7 @@ function insertionSort(array) {
   // el array recibido como parámetro utilizando arreglos
   // Devolver el array ordenado resultante
   // Tu código:
-
- 
+  
 
 }
 
@@ -26,8 +25,7 @@ function selectionSort(array) {
   // el array recibido como parámetro utilizando dos arreglos
   // Devolver el array ordenado resultante
   // Tu código:
-
-
+ 
 }
 
 
@@ -36,8 +34,8 @@ function quickSort(array) {
   // el array recibido como parámetro
   // Devolver el array ordenado resultante
   // Tu código:
+  
 
-   
 
 }
 
@@ -47,9 +45,9 @@ function mergeSort(array) {
   // Devolver el array ordenado resultante
   // Tu código:
 
-  
-
 }
+
+
 
 
 // No modificar nada debajo de esta línea

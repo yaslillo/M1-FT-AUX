@@ -5,7 +5,7 @@ function crearClaseLibro() {
       // El constructor de la clase Libro recibe titulo (string), autor (string), traducciones (array de objetos)
       // Inicializar las propiedades del libro con los valores recibidos como argumento
       // Tu código aca:
-      
+    
       
     }
 
@@ -26,7 +26,9 @@ function crearClaseLibro() {
       // { idioma: idioma, editorial: editorial} al arreglo de traducciones del libro.
       // No debe retornar nada.
       // Tu código aca:
+           
       
+
     }
 
     getTraducciones() {
@@ -36,7 +38,6 @@ function crearClaseLibro() {
       // libro.getTraducciones() debería devolver ['inglés', 'castellano']
       // Tu código aca:
       
-
     }
 
     getAlcance() {
@@ -47,7 +48,6 @@ function crearClaseLibro() {
       // libro.getAlcance() deberia devolver 2
       // Tu código aca:
       
-
     }
   }
 
@@ -72,7 +72,6 @@ const printStaff = function (objeto) {
   // Retornar un arreglo que contenga los strings indicando el titulo y nombre de cada miembro del staff
   // de esta forma "The headmaster is Albus Percival Wulfric Brian Dumbledore" 
   // el arreglo debe mantener el orden que posee el staff del objeto.
-  
   
 };
 

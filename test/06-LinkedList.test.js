@@ -43,10 +43,10 @@ describe("Order LinkedList", function () {
   });
 });
 
-describe("Remove In Index", function () {
+describe("Insert", function () {
     var linkedList = new LinkedList();
   
-    it("RemoveInIndex Debe eliminar el elemento indicado en el indice y retornarlo", function () {
+    it("Debe agregar el elemento indicado en el indice", function () {
       linkedList.add(6);
       linkedList.add(4);
       linkedList.add(2);
