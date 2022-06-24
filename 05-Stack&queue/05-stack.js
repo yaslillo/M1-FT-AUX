@@ -17,7 +17,6 @@ const { Stack, Queue } = require("../estructuras")
 
 function efectoEspejo(str){  
 //tu codigo aqui
-
 };
 
 
@@ -27,3 +26,4 @@ module.exports = {
     efectoEspejo,
    
 }
+

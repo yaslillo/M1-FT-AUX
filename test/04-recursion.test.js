@@ -21,16 +21,16 @@ describe("producto(array)", function () {
   });
 });
 describe("isThere(obj, value)", function () {
-  it("Should return true or false", function () {
+  it("Should return false for number '22'", function () {
     expect(isThere(obj, 22)).toBe(false);
   });
-  it("Should return true or false", function () {
+  it("Should return true for name 'Albus' ", function () {
     expect(isThere(obj, "Albus")).toBe(true);
   });
-  it("Should return true or false", function () {
+  it("Should return false for position 'headmaster'", function () {
     expect(isThere(obj, "headmaster")).toBe(false);
   });
-  it("Should return true or false", function () {
+  it("Should return true for lastname 'Dumbledore'", function () {
     expect(isThere(obj, "Dumbledore")).toBe(true);
   });
 });
