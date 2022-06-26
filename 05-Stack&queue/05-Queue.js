@@ -57,16 +57,14 @@ const { Queue } = require("../estructuras")
 
     var controlAcces = function(queue, event){
         //Tu código aca:
-        let arrayName = []
-        let usedTickets = []
-        
-  
-        };
-     
+    };
+       
 
-  
 
   module.exports = {
     controlAcces,
    
 }
+
+
+console.log(controlAcces(queue,"Tomorrowland"))
