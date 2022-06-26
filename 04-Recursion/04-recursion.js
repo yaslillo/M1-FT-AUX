@@ -37,9 +37,32 @@ let obj = {
             }
 
 const isThere = function (obj,value) {
-  
-}       
+      // // let result = false;
+      // for( let key in obj) {
+      //   if(obj[key] === value) {
+      //     return true;
+      //   } else if (typeof obj[key] === 'object') {
+      //       result = isThere(obj[key],value)
+      //   }
+      // }
+      // return result;
 
+      let result;
+      Object.keys(obj).some(function (key) {
+        if(obj[key] === value) {
+          result = obj[key]
+          return true;
+        }
+        if(obj[key] && typeof obj[key] === 'object') {
+          result = isThere(obj[key], value)
+          return result;
+        }
+      })
+
+      return result ? true : false;
+}     
+
+console.log(isThere(obj,'22'))
 
 
 

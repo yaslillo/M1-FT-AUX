@@ -19,8 +19,48 @@ const { Queue } = require("../estructuras")
 
 
 
-var controlAcces = function(queue, event){
-    //Tu código aca:
+
+
+    var queue = new Queue();
+
+    queue.enqueue({
+      fullname: "Franco Etcheverri",
+      age: 26,
+      ticket: { number: 1, event: "Tomorrowland" },
+    });
+    queue.enqueue({
+      fullname: "Toni Tralice",
+      age: 30,
+      ticket: { number: 2, event: "Tomorrowland" },
+    });
+    queue.enqueue({
+      fullname: "Agus Amani",
+      age: 26,
+      ticket: { number: 1, event: "Tomorrowland" },
+    });
+    queue.enqueue({
+      fullname: "Leo Maglia",
+      age: 40,
+      ticket: { number: 3, event: "Recital Queen" },
+    });
+    queue.enqueue({
+      fullname: "Bart Simpson",
+      age: 10,
+      ticket: { number: 3, event: "Tomorrowland" },
+    });
+    queue.enqueue({
+      fullname: "Cosme Fulanito",
+      age: 10,
+      ticket: { event: "Tomorrowland" },
+    });
+  
+
+    var controlAcces = function(queue, event){
+        //Tu código aca:
+        let arrayName = []
+        let usedTickets = []
+        
+  
         };
      
 

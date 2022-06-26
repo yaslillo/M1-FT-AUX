@@ -15,6 +15,8 @@ const { Stack, Queue } = require("../estructuras")
 //   Mar Azulado oro : raM odaluzA oro
 
 
+
+
 function efectoEspejo(str){  
 //tu codigo aqui
 };

@@ -12,10 +12,10 @@ function invertirOrden(array) {
         }
     }
     return newArray
-
-
+    
  
 };
+//console.log(invertirOrden([2, 30, 5, 3, 15])).//([3, 5, 2])
 
 
 function numeroEnComun(array1, array2) {
@@ -114,6 +114,12 @@ function elementoMenorYMayor(array) {
     return newArray;
 
 };
+
+// expect(elementoMenorYMayor([10, 15, 24])).not.toContain(15)
+//         expect(elementoMenorYMayor([2, 4, 9, 1])).not.toContain(4)
+//         expect(elementoMenorYMayor([10, 15, 24])).toContain(10, 24)
+//         expect(elementoMenorYMayor([2, 4, 9, 1])).toContain(1, 9)
+
 
 
 
